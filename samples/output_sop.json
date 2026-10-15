@@ -1,0 +1,42 @@
+{
+  "status": "answered",
+  "dataset_id": "SYNTHETIC-WM-001",
+  "as_of": "2026-10-15",
+  "scope": {
+    "role": "field",
+    "estate": "ESTATE_A"
+  },
+  "question": "tampilkan sop air tinggi",
+  "intent": "sop",
+  "evidence": [
+    {
+      "collection": "documents",
+      "id": "SOP002",
+      "estate": "ESTATE_A",
+      "title": "Synthetic high water guide"
+    }
+  ],
+  "trace": [
+    "validate_request",
+    "scope_curated_data",
+    "route_question",
+    "compute_or_retrieve",
+    "attach_evidence",
+    "require_human_review"
+  ],
+  "mode": "deterministic_demo",
+  "review_status": "human_review_required",
+  "answer": {
+    "documents": [
+      {
+        "id": "SOP002",
+        "estate": "ESTATE_A",
+        "title": "Synthetic high water guide",
+        "text": "Demo guidance only. Recheck the gauge reading from a safe observation location and notify the supervisor. Record the reading ID for review. This example does not authorize opening gates or operating equipment."
+      }
+    ],
+    "limitations": [
+      "Exact topic retrieval from synthetic guidance, not semantic RAG or an approved field SOP."
+    ]
+  }
+}

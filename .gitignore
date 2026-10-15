@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+data/
+*.sqlite3*
+.env*
+*.zip
+*.log
+*.pem
+*.key

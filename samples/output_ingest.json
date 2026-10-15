@@ -1,0 +1,10 @@
+{
+  "status": "ingested",
+  "dataset_id": "SYNTHETIC-WM-001",
+  "duplicates_removed": 1,
+  "counts": {
+    "readings": 8,
+    "structures": 3,
+    "documents": 3
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "status": "no_data",
+  "dataset_id": "SYNTHETIC-WM-001",
+  "as_of": "2026-10-15",
+  "scope": {
+    "role": "field",
+    "estate": "ESTATE_B"
+  },
+  "question": "show high water sop",
+  "intent": "sop",
+  "evidence": [],
+  "trace": [
+    "validate_request",
+    "scope_curated_data",
+    "route_question",
+    "compute_or_retrieve",
+    "attach_evidence",
+    "require_human_review"
+  ],
+  "mode": "deterministic_demo",
+  "review_status": "human_review_required",
+  "answer": {
+    "documents": [],
+    "limitations": [
+      "Exact topic retrieval from synthetic guidance, not semantic RAG or an approved field SOP."
+    ]
+  }
+}

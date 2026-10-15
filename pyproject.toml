@@ -1,0 +1,6 @@
+[project]
+name = "water-management-assistant"
+version = "0.1.0"
+description = "Synthetic, local water-management portfolio demo"
+requires-python = ">=3.11"
+dependencies = []

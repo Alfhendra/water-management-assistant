@@ -1,0 +1,25 @@
+{
+  "dataset_id": "SYNTHETIC-WM-001",
+  "as_of": "2026-10-15",
+  "readings": [
+    {"id":"R001","estate":"ESTATE_A","block":"A01","date":"2026-10-13","rainfall_mm":20,"water_level_cm":55,"groundwater_depth_cm":40},
+    {"id":"R002","estate":"ESTATE_A","block":"A01","date":"2026-10-14","rainfall_mm":65,"water_level_cm":72,"groundwater_depth_cm":30},
+    {"id":"R003","estate":"ESTATE_A","block":"A01","date":"2026-10-15","rainfall_mm":120,"water_level_cm":95,"groundwater_depth_cm":20},
+    {"id":"R004","estate":"ESTATE_A","block":"A02","date":"2026-10-13","rainfall_mm":2,"water_level_cm":25,"groundwater_depth_cm":55},
+    {"id":"R005","estate":"ESTATE_A","block":"A02","date":"2026-10-14","rainfall_mm":0,"water_level_cm":22,"groundwater_depth_cm":62},
+    {"id":"R006","estate":"ESTATE_A","block":"A02","date":"2026-10-15","rainfall_mm":0,"water_level_cm":18,"groundwater_depth_cm":70},
+    {"id":"R007","estate":"ESTATE_B","block":"B01","date":"2026-10-10","rainfall_mm":25,"water_level_cm":45,"groundwater_depth_cm":35},
+    {"id":"R008","estate":"ESTATE_B","block":"B01","date":"2026-10-11","rainfall_mm":30,"water_level_cm":50,"groundwater_depth_cm":32},
+    {"id":"R003","estate":"ESTATE_A","block":"A01","date":"2026-10-15","rainfall_mm":120,"water_level_cm":95,"groundwater_depth_cm":20}
+  ],
+  "structures": [
+    {"id":"WS001","estate":"ESTATE_A","type":"sluice_gate","status":"in_progress","planned_completion":"2026-10-10","budget_usd":10000,"spent_usd":11000},
+    {"id":"WS002","estate":"ESTATE_A","type":"culvert","status":"completed","planned_completion":"2026-10-12","budget_usd":5000,"spent_usd":4500},
+    {"id":"WS003","estate":"ESTATE_B","type":"weir","status":"planned","planned_completion":"2026-10-20","budget_usd":8000,"spent_usd":0}
+  ],
+  "documents": [
+    {"id":"SOP001","estate":"ESTATE_A","title":"Synthetic monitoring guide","text":"Demo guidance only. Record the date, block, rainfall in mm, gauge water level in cm and groundwater depth below ground in cm. Verify units and instrument condition. Ask a supervisor to review unusual readings."},
+    {"id":"SOP002","estate":"ESTATE_A","title":"Synthetic high water guide","text":"Demo guidance only. Recheck the gauge reading from a safe observation location and notify the supervisor. Record the reading ID for review. This example does not authorize opening gates or operating equipment."},
+    {"id":"SOP003","estate":"ESTATE_B","title":"Synthetic monitoring guide","text":"Demo guidance only. Check that the latest reading date is current. Escalate gaps in reporting to the supervisor before interpreting historical data as current conditions."}
+  ]
+}

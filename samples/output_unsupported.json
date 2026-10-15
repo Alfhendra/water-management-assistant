@@ -1,0 +1,26 @@
+{
+  "status": "unsupported_question",
+  "dataset_id": "SYNTHETIC-WM-001",
+  "as_of": "2026-10-15",
+  "scope": {
+    "role": "management",
+    "estate": "ALL"
+  },
+  "question": "Predict next month flooding",
+  "intent": null,
+  "evidence": [],
+  "trace": [
+    "validate_request",
+    "scope_curated_data",
+    "route_question"
+  ],
+  "mode": "deterministic_demo",
+  "review_status": "human_review_required",
+  "answer": "Use one of the supported questions; no answer was inferred.",
+  "supported_questions": [
+    "summary",
+    "show hydrology",
+    "show water structures",
+    "show monitoring sop"
+  ]
+}
